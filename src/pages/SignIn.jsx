@@ -1,15 +1,3 @@
-import {
-    TextInput,
-    PasswordInput,
-    Checkbox,
-    Paper,
-    Title,
-    Text,
-    Container,
-    Group,
-    Button,
-} from '@mantine/core';
-
 import { Link } from 'react-router-dom';
 
 export default function SignIn() {
