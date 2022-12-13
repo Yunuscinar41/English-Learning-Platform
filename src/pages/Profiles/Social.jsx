@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import planet from "./planet2.png";
 
 function Social({ click }) {
@@ -30,7 +30,7 @@ function Social({ click }) {
       </div>
       <div className="w-1/2 bg-part p-4 rounded-lg pt-5 flex flex-row">
         <div className="pr-10">
-          <ul className="flex flex-col gap-3">
+          <ul className="flex flex-col gap-4">
             <li className="text-sm tracking-tighter text-list-color font-semibold">
               Following{"("}30{")"}
             </li>
@@ -42,7 +42,7 @@ function Social({ click }) {
             </li>
           </ul>
         </div>
-        <div className="border-l-[1px] border-profile-border pl-4 w-5/6 relative">
+        <div className="border-l-[1px] border-profile-border pl-4 w-5/6 relative -mt-2">
           <ul className="divide-y divide-profile-border">
             <li className="flex flex-row items-center py-3 text-sm tracking-tighter text-list-color font-semibold">
               <span className="mr-2">3kyu</span>{" "}
