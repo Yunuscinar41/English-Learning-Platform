@@ -7,7 +7,7 @@ import youtube from "../../assets/Home/youtube.png";
 const Footer = () => {
   return (
     <div className="bg-lift-blue flex flex-col items-center mt-40">
-      <div className="mt-14 flex flex-row items-center mb-48">
+      <div className="mt-14 flex flex-row items-center mb-44">
         <span className="mr-6 font-semibold text-lg">Newsletter</span>
         <div className="flex flex-row items-center bg-white p-4 rounded-full pl-7">
           <input

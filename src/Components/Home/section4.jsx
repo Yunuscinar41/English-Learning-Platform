@@ -24,7 +24,7 @@ const Fourth = () => {
       <img
         src={Vector}
         alt="vector"
-        className="absolute left-80 -bottom-20 -z-10"
+        className="absolute left-60 -bottom-20 -z-10"
       />
     </div>
   );

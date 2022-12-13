@@ -4,6 +4,7 @@ import Root from "./pages/Root";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Home from "./pages/Home";
+import Profile from "./pages/Profiles/Profile";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             Home <Link to="/v1/SignIn"> go to SignIn </Link>
           </div>
         ),
+      },
+      {
+        path: "/v1/Profile",
+        element: <Profile />,
       },
     ],
   },

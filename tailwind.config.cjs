@@ -18,10 +18,13 @@ module.exports = {
       black: "#000000",
       "lift-blue": "#f0f7ff",
       "send-icon": "#0081FE",
+      "profile-bg": "#16171B",
+      "list-color": "#A0A0A1",
+      part: "#1D1D1F",
+      "profile-hover": "#91B2E7",
+      "profile-border": "#3E3F42",
     },
   },
   plugins: [],
-  corePlugins: {
-    preflight: false,
-  },
+  corePlugins: {},
 };
